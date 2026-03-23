@@ -59,7 +59,7 @@ const BASE_MAINNET_CHAIN_ID = "0x2105";
 const TAP_CONTRACT = "0x03294193eEc83Bc6Da1B2d32Fbc9946cA2326728"; // checksummed
 
 // Optional: the same address is used as the USDC tip recipient in the Tip tab.
-const TIP_RECIPIENT = "0xe8Bda2Ed9d2FC622D900C8a76dc455A3e79B041f";
+const TIP_RECIPIENT = "0x047E7a5e3F2b9fF4F9A582c23cEeEb74399E9578";
 
 // Contract function: logAction(bytes32,bytes)
 // selector = keccak256("logAction(bytes32,bytes)")[0:4] = 0x2d9bc1fb
@@ -71,7 +71,7 @@ const ACTION_TAP = "TAP";
 // IMPORTANT: Per Base Account docs, the `dataSuffix` capability must be an object
 // with a `value` field (hex string). Passing a raw string will throw:
 //   "Expected object, received string".
-const BUILDER_CODE = "bc_w5t12vu3";
+const BUILDER_CODE = "bc_qvb83xqp";
 const builderCodeSuffix = Attribution.toDataSuffix({ codes: [BUILDER_CODE] });
 
 function isHexAddress(addr) {
